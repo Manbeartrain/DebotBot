@@ -1,0 +1,16 @@
+{
+  "name": "debotbot",
+  "version": "0.0.1",
+  "description": "Telegram Bot for DebotBSC",
+  "main": "server.js",
+  "author": "Alexandro Higareda",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "moralis": "^1.2.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15"
+  }
+}
